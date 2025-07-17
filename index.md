@@ -30,13 +30,6 @@ You can learn more about Direct Preference Optimization from their paper: [Direc
 
 ### Additional Analyses
 
-**Fairness Evaluation**
-[TODO]
-- `counterfactual_outline.md`: Our proposed framework for counterfactual fairness in this space.
-
-**Qualitative Feedback**
-- `qualitative_feedback.md`: Anonymous TA justifications from our controlled human study, comparing DPO and GPT-4o.
-
 ### How to Get the Code? 
 You can find all of the code here: [Github Repo](https://github.com/juliettewoodrow/dpo_feedback)
 
