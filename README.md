@@ -16,7 +16,6 @@ Learn more about DPO: [Direct Preference Optimization (Rafailov et al., 2023)](h
 **Training Setup**
 - `train_dpo.py`: Code for fine-tuning LLMs with DPO.
 
-
 **Inference Setup**
 - `generate_feedback.py`: Script for generating feedback using a fine-tuned model.
 - `prompts/`: Structured prompts used during inference.
@@ -27,9 +26,7 @@ Learn more about DPO: [Direct Preference Optimization (Rafailov et al., 2023)](h
 - `critic_model.py`: Code to evaluate feedback on accuracy, helpfulness, and assertiveness.
 - `critic_prompts/`: Prompts for our custom LLM-based critic.
 
-`compute_requirements.md`: Notes on GPU setup, training time, and dataset sizes.
-`requirements.txt`: Python package dependencies.
-
-### How to Get the Code? 
-You can find all of the code here: [Github Repo](https://github.com/juliettewoodrow/dpo_feedback)
+**Overall**
+- `compute_requirements.md`: Notes on GPU setup, training time, and dataset sizes.
+- `requirements.txt`: Python package dependencies.
 
