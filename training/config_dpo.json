@@ -1,0 +1,41 @@
+{
+  "sft_model_to_load": "",
+  "data_path": "", 
+  "output_dir": "",
+
+  "per_device_train_batch_size": 1,
+  "gradient_accumulation_steps": 16,
+  "num_train_epochs": 5,
+  "test_size": 0.1,
+  "eval_size": 100,
+
+  "beta": 0.4,
+  "warmup_steps": 50,
+  "learning_rate": 5e-5,
+  "weight_decay": 0.001,
+  "lr_scheduler_type": "cosine",
+  "eval_steps": 50,
+  "save_steps": 50,
+  "logging_steps": 10,
+  "max_prompt_length": 1400,
+  "max_length": 2800,
+
+  "lora_config": {
+    "r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.15,
+    "bias": "none",
+    "task_type": "CAUSAL_LM",
+    "target_modules": [
+      "lm_head",
+      "layers.31.self_attn.q_proj",
+      "layers.31.self_attn.v_proj",
+      "layers.31.mlp.up_proj",
+      "layers.31.mlp.down_proj",
+      "layers.30.self_attn.q_proj",
+      "layers.30.self_attn.v_proj",
+      "layers.30.mlp.up_proj",
+      "layers.30.mlp.down_proj"
+    ]
+  }
+}

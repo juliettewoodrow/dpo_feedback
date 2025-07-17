@@ -1,16 +1,15 @@
 # Improving Generative AI Student Feedback: Direct Preference Optimization with Teachers in the Loop
+**Authors**  
+Juliette Woodrow, Sanmi Koyejo, Chris Piech  
+Stanford University
 
-This repository supports our paper:
+We present a system for improving LLM-generated student feedback through **Direct Preference Optimization (DPO)**, using real-time preferences from teachers during grading. The system was deployed in two offerings of a Stanford University course on probability and evaluated both through expert blind review and automated critic models. [Read the paper (PDF)](https://juliettewoodrow.github.io/paper-hosting/dpo_feedback.pdf)
 
-📄 [Read the paper (PDF)](https://juliettewoodrow.github.io/paper-hosting/dpo_feedback.pdf)
+You can learn more about Direct Preference Optimization from their paper: [Direct Preference Optimization (Rafailov et al., 2023)](https://arxiv.org/abs/2305.18290)
 
-We present a system for improving LLM-generated student feedback through **Direct Preference Optimization (DPO)**, using real-time preferences from teachers during grading. The system was deployed in two offerings of a Stanford University course on probability and evaluated both through expert blind review and automated critic models.
+## What's in This Repo
 
----
-
-## 💡 What's in This Repo
-
-### 🧠 Model Code
+### Model Code
 
 **Training Setup**
 - `train_dpo.py`: Code for fine-tuning LLMs with DPO.
@@ -22,18 +21,14 @@ We present a system for improving LLM-generated student feedback through **Direc
 - `prompts/`: Structured prompts used during inference.
 - `requirements.txt`: Python package dependencies. 
 
----
-
-### 📊 Evaluation Setup
+### Evaluation Setup
 
 **Custom Critic Model**
 - `critic_model.py`: Code to evaluate feedback on accuracy, helpfulness, and assertiveness.
 - `critic_prompts/`: Prompts for our custom LLM-based critic.
 - `requirements.txt`: Evaluation setup (uses OpenAI API).
 
----
-
-### 📈 Additional Analyses
+### Additional Analyses
 
 **Fairness Evaluation**
 [TODO]
@@ -42,10 +37,6 @@ We present a system for improving LLM-generated student feedback through **Direc
 **Qualitative Feedback**
 - `qualitative_feedback.md`: Anonymous TA justifications from our controlled human study, comparing DPO and GPT-4o.
 
----
+### How to Get the Code? 
+You can find all of the code here: [Github Repo](https://github.com/juliettewoodrow/dpo_feedback)
 
-## 🔒 Ethical Considerations
-
-We do **not** release any student submissions or feedback data to preserve privacy. This repository is intended to help instructors **build their own pipelines** using the released methods.
-
----

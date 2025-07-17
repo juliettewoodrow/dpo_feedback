@@ -1,0 +1,11 @@
+{
+  "model_to_use": "NEWEST",
+  "model_paths": {
+    "BASE_LLAMA": "meta-llama/Llama-3.1-8b-Instruct",
+    "SFT": "/path/to/sft_model",
+    "DPO": "/path/to/dpo_model"
+  },
+  "student_data_base": "/path/to/student_data",
+  "output_base": "graded",
+  "openai_api_key_env_var": "OPENAI_API_KEY"
+}
