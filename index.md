@@ -28,8 +28,6 @@ You can learn more about Direct Preference Optimization from their paper: [Direc
 - `critic_prompts/`: Prompts for our custom LLM-based critic.
 - `requirements.txt`: Evaluation setup (uses OpenAI API).
 
-### Additional Analyses
-
 ### How to Get the Code? 
 You can find all of the code here: [Github Repo](https://github.com/juliettewoodrow/dpo_feedback)
 
