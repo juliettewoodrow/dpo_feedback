@@ -3,7 +3,7 @@
 Juliette Woodrow, Sanmi Koyejo, Chris Piech  
 Stanford University
 
-We present a system for improving LLM-generated student feedback through **Direct Preference Optimization (DPO)**, using real-time preferences from teachers during grading. The system was deployed in two offerings of a Stanford University course on probability and evaluated both through expert blind review and automated critic models. [Read the paper (PDF)](https://juliettewoodrow.github.io/paper-hosting/dpo_feedback.pdf)
+We present a system for improving LLM-generated student feedback through **Direct Preference Optimization (DPO)**, using real-time preferences from teachers during grading. The system was deployed in two offerings of a Stanford University course on probability and evaluated both through expert blind review and automated critic models. You can read the whole paper here: [Improving Generative AI Student Feedback: Direct Preference Optimization with Teachers in the Loop (Woodrow et al., 2025)](https://juliettewoodrow.github.io/paper-hosting/dpo_feedback.pdf)
 
 You can learn more about Direct Preference Optimization from their paper: [Direct Preference Optimization (Rafailov et al., 2023)](https://arxiv.org/abs/2305.18290)
 
