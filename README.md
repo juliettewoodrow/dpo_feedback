@@ -1,6 +1,6 @@
 # Improving Generative AI Student Feedback: Direct Preference Optimization with Teachers in the Loop
 **Authors**  
-Juliette Woodrow, Sanmi Koyejo, Chris Piech  
+[Juliette Woodrow](https://juliettewoodrow.github.io/), [Sanmi Koyejo](https://cs.stanford.edu/~sanmi/), [Chris Piech](https://stanford.edu/~cpiech/bio/index.html)  
 Stanford University
 
 We present a system for improving LLM-generated student feedback through **Direct Preference Optimization (DPO)**, using real-time preferences from teachers during grading. The system was deployed in two offerings of a Stanford University course on probability and evaluated both through expert blind review and automated critic models. 
